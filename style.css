@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+.top_main{
+    position: relative;
+    width: 100%;
+    height: 570px;
+    background: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-size: cover;
+}
+.top_main ul{
+    position: relative;
+    right: 210px;
+    top: 25px;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    gap: 3%;
+}
+.top_main ul li a{
+    text-decoration: none;
+    color: #ffffffbe;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top_main img{
+    position: relative;
+    left: 49.4%;
+    transform: translate(-50% ,-50%);
+    width: 280px;
+    top: 41%;
+}
+.top_main span{
+    position: absolute;
+    top: 315px;
+    letter-spacing: 0.03cm;
+    left: 335px;
+    width: 600px;
+    text-align: center;
+}
+.top_main span p{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.popular_location_india{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.popular_location_india h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: #1c1c1c;
+}
+.popular_location_india img{
+    position: relative;
+    top: 3px;
+    height: 35px;
+}
+.popular_location_india p{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 910px;
+    text-align: center;
+    margin-top: 40px;
+    color: #696969;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.02cm;
+}
+.popular_location_india .location_content{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    padding: 6.5%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px 20px;
+
+}
+.popular_location_india .location_content div{
+    transform: 0.5s;
+    position: relative;
+    border: 1px solid #c5c5c5c4;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+.popular_location_india .location_content div:hover{
+    box-shadow: 2px 5px 10px rgb(230, 230, 230);
+}
+.popular_location_india .location_content div a{
+    text-decoration: none;
+    font-size: 21px;
+    width: 100%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c1c1cd7;
+}
+.popular_location_india .location_content div a i{
+    position: absolute;
+    right: 30px;
+    font-size: 13px;
+    line-height: 25px;
+}
