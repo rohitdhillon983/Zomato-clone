@@ -87,7 +87,6 @@ body{
     padding: 6.5%;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px 20px;
-
 }
 .popular_location_india .location_content div{
     transform: 0.5s;
@@ -112,4 +111,60 @@ body{
     right: 30px;
     font-size: 13px;
     line-height: 25px;
+}
+.popular_location_india h2{
+    position: absolute;
+    left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: -20px;
+    color: #1c1c1c;
+}
+.popular_location_india .all_countries{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    padding: 6.5%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px 20px;
+}
+.popular_location_india .all_countries div{
+    transform: 0.5s;
+    position: relative;
+    border: 1px solid #c5c5c5c4;
+    border-radius: 10px;
+    padding: 20px 25px;
+}
+.popular_location_india .all_countries div:hover{
+    box-shadow: 2px 5px 10px rgb(230, 230, 230);
+}
+.popular_location_india .all_countries div a{
+    text-decoration: none;
+    font-size: 21px;
+    width: 100%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c1c1cd7;
+    line-height: 40px;
+}
+.popular_location_india .all_countries div a i{
+    position: absolute;
+    right: 30px;
+    font-size: 13px;
+    line-height: 25px;
+}
+.popular_location_india .all_countries div a img{
+    width: 45px;
+    height: 33px;
+    margin-right: 5px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    padding: 5%;
+}
+footer .ft_logo{
+    position: relative;
 }
