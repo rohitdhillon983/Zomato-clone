@@ -38,8 +38,9 @@ body{
 .top_main span{
     position: absolute;
     top: 315px;
+    /* background: red; */
     letter-spacing: 0.03cm;
-    left: 335px;
+    left: 26.5%;
     width: 600px;
     text-align: center;
 }
