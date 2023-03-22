@@ -164,8 +164,17 @@ body{
 footer{
     position: relative;
     width: 100%;
-    padding: 5%;
+    margin-top: -50px;
+    padding: 5% 7%;
+    background: #f8f8f8;
 }
 footer .ft_logo{
     position: relative;
+    display: flex;
+    height: 40px;
+    background: red;
+}
+footer .ft_logo img{
+    width: 125px;
+    height: 20px;
 }
